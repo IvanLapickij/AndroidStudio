@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyProject1</string>
+    <string name="title_activity_main_main_menu">MainActivity_Main_Menu</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main_activity3_passtext">MainActivity3_passtext</string>
+    <string name="button">button</string>
+    <string name="mytext">
+        More than 43,000 different species
+        of spiders are found in the world.
+        Of these, only a small number are
+        said to be dangerous, and less than
+        30 (less than one-tenth of one percent)
+        have been responsible for human
+        deaths. Why are so few spiders harmful
+        to humans? Much of the reason may
+        result from the size differences between
+        people and spiders. Spider
+        venom is designed to work on smaller animals,
+        but the venom of some
+        species can produce skin lesions in people or
+        produce allergic reactions
+        that result in fatalities. It is important to
+        understand, however, that
+        “death by spider bite” is very rare since clinics,
+        poison control centers
+        , and hospitals often have various
+        species-specificantivenin
+        (the antitoxin) on hand to treat the bite.
+    </string>
+</resources>

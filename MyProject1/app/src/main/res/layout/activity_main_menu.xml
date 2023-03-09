@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity_spiders_radiobuttons">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imageView_spiders"
+        android:layout_width="259dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spider1" />
+
+    <RadioGroup
+        android:id="@+id/spiders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="332dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/spider1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Funnel-web Spider" />
+
+        <RadioButton
+            android:id="@+id/spider2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Redback Spider" />
+
+        <RadioButton
+            android:id="@+id/spider3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red Widow Spider" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="337dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="496dp"
+        android:text="This family of spiders in the order Araneida are named for their funnel-shaped webs, which open wide at the mouth of the tube. The spider sits in the narrow funnel waiting for prey to contact the web. When this happens, the spider rushes out and captures the insect prey at the funnel’s mouth. The most important genera are Evagrus, Brachythele, and Microhexura in North America, Trechona in South America, and the poisonous members of the Atrax genus in Australia."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

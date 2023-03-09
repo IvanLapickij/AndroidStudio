@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2_choice">
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="360dp"
+        android:background="#301212"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/presence_video_busy" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="508dp"
+        android:background="#301212"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="360dp"
+        android:background="#301212"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="140dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="508dp"
+        android:background="#301212"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    <Button
+        android:id="@+id/btu_maps"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="152dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="serif"
+        android:text="OpenMaps"
+        android:textColor="#0820F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btu_browser"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="serif"
+        android:text="OpenBrowser"
+        android:textColor="#020623"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btu_phone"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="174dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="128dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="OpenPhone"
+        android:textColor="#031A6E"
+        android:textSize="20sp"
+        android:typeface="monospace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
