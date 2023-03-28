@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="2"
+        android:title="Test 3"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btu_flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orderInCategory="2"
+        android:title="Flipper"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btu_ImageList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orderInCategory="2"
+        android:title="Images"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/camera_btu1"
+        android:orderInCategory="4"
+        android:title="@string/camera"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/cbtu_contact"
+        android:orderInCategory="2"
+        android:title="Contact"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/calendar_btu2"
+        android:orderInCategory="3"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
