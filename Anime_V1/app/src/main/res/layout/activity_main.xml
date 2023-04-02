@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <DigitalClock
+
+        android:layout_width="134dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="56dp"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="116dp"
+        app:cardBackgroundColor="#FFEB3B"
+        app:cardCornerRadius="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="249dp"
+                android:layout_height="134dp"
+                android:layout_marginTop="52dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/jujutsu"
+                android:contentDescription="@string/cardview" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="245dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="32dp"
+                android:text="@string/click_on_image_for_anime_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btu_wow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="424dp"
+        android:text="sound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btu_next2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_transition"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.859" />
+</androidx.constraintlayout.widget.ConstraintLayout>

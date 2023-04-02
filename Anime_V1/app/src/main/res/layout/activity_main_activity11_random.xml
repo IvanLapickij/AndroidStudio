@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_random"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity11_Random">
+
+    <ImageView
+        android:id="@+id/imageView001"
+        android:layout_width="match_parent"
+        android:layout_height="478dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img1"
+        tools:layout_conversion_absoluteHeight="731dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <include
+        layout="@layout/layout_extra"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        tools:layout_conversion_absoluteHeight="0dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="731dp" />
+
+</LinearLayout>
