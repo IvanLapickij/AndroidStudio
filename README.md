@@ -14,6 +14,7 @@ Image Gallery: Marvel at high-quality images that capture the beauty and intrica
 Dangerous Spiders: Gain insights into potentially dangerous spiders. Learn about their venom, bite symptoms, and precautions to take when encountering them.
 
 Project Anime
+![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/b38227f2-34f7-4c5e-b15d-f711c6113192)
 
 Introducing the Anime Companion, a feature-rich Android Studio app tailored for anime enthusiasts. Stay on top of your favorite anime series with a suite of functionalities that enhance your anime-watching experience. Whether you're tracking release dates, managing a watchlist, or personalizing your app settings, Anime Companion has you covered.
 
