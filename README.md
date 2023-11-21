@@ -20,7 +20,8 @@ Key Features:
 ![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/faa76120-43d6-4828-b730-e0a4d695a480)
 
 Release Countdown Timer: Set countdown timers for upcoming anime seasons, ensuring you never miss the premiere of your most anticipated series.
-![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/b38227f2-34f7-4c5e-b15d-f711c6113192)
+![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/b752770d-d818-4932-a26c-73979b7f9384)
+
 
 Watchlist Management: Keep track of your favorite anime titles with an intuitive watchlist feature. Easily organize and prioritize your watchlist for a seamless viewing experience.
 ![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/9c74fbcf-2e54-48b0-8a5c-3173040f264a)
