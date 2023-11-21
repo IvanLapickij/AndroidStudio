@@ -14,14 +14,13 @@ Image Gallery: Marvel at high-quality images that capture the beauty and intrica
 Dangerous Spiders: Gain insights into potentially dangerous spiders. Learn about their venom, bite symptoms, and precautions to take when encountering them.
 
 Project Anime
-![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/b38227f2-34f7-4c5e-b15d-f711c6113192)
-
 Introducing the Anime Companion, a feature-rich Android Studio app tailored for anime enthusiasts. Stay on top of your favorite anime series with a suite of functionalities that enhance your anime-watching experience. Whether you're tracking release dates, managing a watchlist, or personalizing your app settings, Anime Companion has you covered.
 
 Key Features:
+![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/faa76120-43d6-4828-b730-e0a4d695a480)
 
 Release Countdown Timer: Set countdown timers for upcoming anime seasons, ensuring you never miss the premiere of your most anticipated series.
-![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/faa76120-43d6-4828-b730-e0a4d695a480)
+![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/b38227f2-34f7-4c5e-b15d-f711c6113192)
 
 Watchlist Management: Keep track of your favorite anime titles with an intuitive watchlist feature. Easily organize and prioritize your watchlist for a seamless viewing experience.
 ![image](https://github.com/IvanLapickij/AndroidStudio/assets/116425938/9c74fbcf-2e54-48b0-8a5c-3173040f264a)
